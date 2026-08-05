@@ -1,5 +1,5 @@
 # chocolate-sales-analytics
-End-to-end sales analytics pipeline built with Excel Power Query, SQL query aggregation, and an interactive Power BI dashboard using DAX measures &amp; Star Schema modeling.
+End-to-end sales analytics pipeline built using Excel (Power Query & Pivot Tables) for data cleaning and exploratory analysis, SQL for querying aggregations, and an interactive Power BI dashboard featuring DAX measures and Star Schema data modeling.
 ---
 # 🍫 Chocolate Sales & Revenue Analytics
 
