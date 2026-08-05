@@ -2,21 +2,17 @@
 End-to-end sales analytics pipeline built using Excel (Power Query & Pivot Tables) for data cleaning and exploratory analysis, SQL for querying aggregations, and an interactive Power BI dashboard featuring DAX measures and Star Schema data modeling.
 ---
 
-```mermaid```
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ➔ ![SQL](https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white) ➔ ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
-flowchart LR
-    A["🟢 Microsoft Excel<br>Power Query & EDA"] --> B["🔵 Microsoft SQL Server<br>Queries & Aggregations"]
-    B --> C["🟡 Power BI Desktop<br>Star Schema & DAX"] **Enter**
-**```** **Enter**
 
 
 
 # 🍫 Chocolate Sales & Revenue Analytics
 
 ## 📊 Executive Summary
-An end-to-end data analytics project evaluating **$52.3M in enterprise revenue**, product portfolio efficiency, seasonal trends, and salesforce performance. 
+An end-to-end data analytics project evaluating enterprise revenue performance, product portfolio efficiency, seasonal trends, and salesforce concentration dynamics across global channels.
 
-Key analytical highlights include identifying **cash cow products** (e.g., *70% Dark Chocolate Bar*), isolating **zombie SKUs** with low velocity, uncovering a major **Q4 seasonal demand spike**, and pin-pointing **underperforming sales staff** to optimize resource allocation and revenue growth.
+By integrating cross-functional datasets across Excel, SQL, and Power BI, this analysis identifies flagship revenue drivers (e.g., *70% Dark Chocolate Bar*), pinpoints slow-moving product lines, exposes a pronounced Q4 seasonal demand surge, and uncovers high salesperson concentration risk. The findings provide actionable strategic recommendations for sales territory realignment, portfolio bundling, and revenue smoothing.
 
 ---
 
@@ -26,14 +22,17 @@ Key analytical highlights include identifying **cash cow products** (e.g., *70% 
 * **Data Auditing & Cleaning:** Extracted raw datasets, resolved and handled missing values across **700+ cells**, adjusted data types, and standardized date formats using **Power Query**.
 * **Exploratory Data Analysis (EDA):** Built dynamic **Pivot Tables** and integrated **Slicers** for interactive cross-filtering, quick spot-checking, revenue aggregation, and rapid preliminary insights.
 
-### 2. Relational Querying & Validation (Microsoft SQL Server)
-* Engineered SQL scripts to audit key business dimensions prior to BI reporting.
-* Executed ranking queries using window functions (`DENSE_RANK`, `PARTITION BY`) to determine top-performing products, salesperson contributions, and regional distribution.
+### 2. Relational Querying & Data Validation (SSMS / Microsoft SQL Server)
+* **Database Views (`CREATE VIEW`):** Constructed reusable SQL Views to abstract aggregated queries and serve as clean, optimized data source layers for Power BI ingestion.
+* **Query Aggregation & Auditing:** Formulated targeted SQL queries using core aggregate functions (`SUM`, `AVG`, `COUNT`) and `GROUP BY` clauses to validate baseline metrics prior to reporting.
+* **Advanced Window Functions:** Executed analytical window functions (`DENSE_RANK`, `PARTITION BY`, `OVER`) to evaluate product velocity, salesperson ranking, and regional variance.
 
 ### 3. Data Modeling & Interactive Visuals (Power BI)
-* **Data Modeling:** Designed an optimized **Star Schema** with clear fact-dimension table relationships (`FactSales`, `DimProduct`, `DimSalesrep`, `DimDate`).
-* **DAX Formulas:** Formulated explicit DAX measures for core KPIs including Total Revenue ($52.3M), YoY Growth (+4.0%), ROAS (5.53x), and custom conditional formatting logic.
-* **Dashboard Design:** Created an executive, high-contrast dark espresso palette layout optimized for quick visual scanning and C-suite reporting.
+* **Data Modeling:** Designed an optimized **Star Schema** establishing clean fact-dimension relationships across sales performance, product catalogs, sales representatives, and time dimensions.
+* **DAX Formulas & Measures:** Formulated explicit DAX measures for executive KPIs including Total Revenue ($52.3M, +4.0% YoY), Marketing Spend ($9.5M), ROAS (5.53x, +0.29x YoY), Volume Sold (14.2M Boxes), and Average Discount Rate (13.09%).
+* **Multi-Page Executive Dashboard Design:** Built an interactive, 2-page report styled with a warm, custom chocolate/espresso palette:
+  * **Page 1 (Overview Dashboard):** Feature-packed executive overview featuring dynamic slicers (Year, Country, Channel, Product), key KPI card banners, top revenue drivers by product and salesperson, and interactive monthly trend comparisons (`Revenue` vs. `Revenue PY`).
+  * **Page 2 (Executive Insights & Recommendations):** Integrated interactive treemaps, product-level YoY growth tables, and dedicated executive callout cards providing actionable business recommendations across **Sales Territory Realignment**, **Portfolio & SKU Optimization**, and **Seasonality & Revenue Smoothing**.
 
 ---
 
