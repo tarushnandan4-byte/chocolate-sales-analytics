@@ -43,6 +43,10 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ## 📊 Dashboard Preview
 
+### 🔄 Interactive Walkthrough
+![Dashboard Demo](assets/dashboard_walkthrough.gif)
+
+---
 ### Executive Overview
 ![Dashboard Overview](assets/dashboard_overview.png)
 
