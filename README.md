@@ -4,8 +4,8 @@ End-to-end sales analytics pipeline built using Excel (Power Query & Pivot Table
 
 ```mermaid
 flowchart LR
-    A["🟢 Microsoft Excel<br><i>(Power Query and EDA)</i>"] --> B["🔵 Microsoft SQL Server<br><i>(Queries and Aggregations)</i>"]
-    B --> C["🟡 Power BI Desktop<br><i>(Star Schema and DAX)</i>"]
+    A["🟢 Microsoft Excel<br>Power Query & EDA"] --> B["🔵 Microsoft SQL Server<br>Queries & Aggregations"]
+    B --> C["🟡 Power BI Desktop<br>Star Schema & DAX"]
 
 
 
