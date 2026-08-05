@@ -29,6 +29,14 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 * **Seasonality & Demand Smoothing:** Historical monthly revenue trends consistently drop to annual lows during **Q2 (May–June)** before experiencing a sharp **Q4 demand surge**, signaling a need for pre-Q4 inventory adjustments and Q2 promotional campaigns.
 * **Marketing & Volume Execution:** Promotional strategies achieved an overall **5.53x ROAS** (+0.29x YoY) across $9.5M in ad spend, pushing total box volume to **14.2M units** with an average discount rate of 13.09%.
 
+## 📊 Dashboard Preview
+
+### Executive Overview
+![Dashboard Overview](assets/dashboard_overview.png)
+
+### Performance Insights & Strategic Recommendations
+![Detailed Insights](assets/dashboard_insights.png)
+
 ## 🛠️ Data Pipeline & Technical Architecture
 
 ### 1. Data Cleaning & Exploratory Analysis (Microsoft Excel)
