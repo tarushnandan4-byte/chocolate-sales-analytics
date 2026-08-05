@@ -2,7 +2,7 @@
 End-to-end sales analytics pipeline built using Excel (Power Query & Pivot Tables) for data cleaning and exploratory analysis, SQL for querying aggregations, and an interactive Power BI dashboard featuring DAX measures and Star Schema data modeling.
 ---
 
-```mermaid
+```mermaid```
 flowchart LR
     A["🟢 Microsoft Excel<br>Power Query & EDA"] --> B["🔵 Microsoft SQL Server<br>Queries & Aggregations"]
     B --> C["🟡 Power BI Desktop<br>Star Schema & DAX"] **Enter**
