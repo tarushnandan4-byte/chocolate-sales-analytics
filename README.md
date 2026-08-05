@@ -21,21 +21,6 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 * **Salesforce Performance:** How is sales performance distributed across the team, and which underperforming sales staff need territory realignment or mentorship?
 * **Seasonality Trends:** Does historical sales data indicate a predictable Q4 seasonal demand surge, and how should inventory be managed ahead of it?
 * **Pricing & Discounting:** Did offering higher average discounts in 2023 directly drive higher unit volumes and top-line sales performance?
-  
-## 💡 Key Business Insights
-
-* **Portfolio & SKU Optimization (Cash Cows vs. Zombie SKUs):** Flagship "Cash Cow" SKUs (*70% Dark Bar*, *Mixed Assortment*, and *Truffle Gift Box*) drive over **63% of total revenue** ($33.4M), while slow-moving "Zombie SKUs" like *Hazelnut Milk Bar* ($1.1M) lag behind, presenting prime targets for promotional bundling.
-* **Sales Territory & Concentration Risk:** Lead rep *Arjun Mehta* generated **$17.8M in 2023** ($34.7M multi-year, accounting for 33.8% of total enterprise sales), exposing severe single-agent concentration risk while highlighting underperformance across bottom-tier reps.
-* **Seasonality & Demand Smoothing:** Historical monthly revenue trends consistently drop to annual lows during **Q2 (May–June)** before experiencing a sharp **Q4 demand surge**, signaling a need for pre-Q4 inventory adjustments and Q2 promotional campaigns.
-* **Marketing & Volume Execution:** Promotional strategies achieved an overall **5.53x ROAS** (+0.29x YoY) across $9.5M in ad spend, pushing total box volume to **14.2M units** with an average discount rate of 13.09%.
-
-## 📊 Dashboard Preview
-
-### Executive Overview
-![Dashboard Overview](assets/dashboard_overview.png)
-
-### Performance Insights & Strategic Recommendations
-![Detailed Insights](assets/dashboard_insights.png)
 
 ## 🛠️ Data Pipeline & Technical Architecture
 
@@ -54,6 +39,24 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 * **Multi-Page Executive Dashboard Design:** Built an interactive, 2-page report styled with a warm, custom chocolate/espresso palette:
   * **Page 1 (Overview Dashboard):** Feature-packed executive overview featuring dynamic slicers (Year, Country, Channel, Product), key KPI card banners, top revenue drivers by product and salesperson, and interactive monthly trend comparisons (`Revenue` vs. `Revenue PY`).
   * **Page 2 (Executive Insights & Recommendations):** Integrated interactive treemaps, product-level YoY growth tables, and dedicated executive callout cards providing actionable business recommendations across **Sales Territory Realignment**, **Portfolio & SKU Optimization**, and **Seasonality & Revenue Smoothing**.
+
+
+## 📊 Dashboard Preview
+
+### Executive Overview
+![Dashboard Overview](assets/dashboard_overview.png)
+
+### Performance Insights & Strategic Recommendations
+![Detailed Insights](assets/dashboard_insights.png)
+
+
+
+## 💡 Key Business Insights
+
+* **Portfolio & SKU Optimization (Cash Cows vs. Zombie SKUs):** Flagship "Cash Cow" SKUs (*70% Dark Bar*, *Mixed Assortment*, and *Truffle Gift Box*) drive over **63% of total revenue** ($33.4M), while slow-moving "Zombie SKUs" like *Hazelnut Milk Bar* ($1.1M) lag behind, presenting prime targets for promotional bundling.
+* **Sales Territory & Concentration Risk:** Lead rep *Arjun Mehta* generated **$17.8M in 2023** ($34.7M multi-year, accounting for 33.8% of total enterprise sales), exposing severe single-agent concentration risk while highlighting underperformance across bottom-tier reps.
+* **Seasonality & Demand Smoothing:** Historical monthly revenue trends consistently drop to annual lows during **Q2 (May–June)** before experiencing a sharp **Q4 demand surge**, signaling a need for pre-Q4 inventory adjustments and Q2 promotional campaigns.
+* **Marketing & Volume Execution:** Promotional strategies achieved an overall **5.53x ROAS** (+0.29x YoY) across $9.5M in ad spend, pushing total box volume to **14.2M units** with an average discount rate of 13.09%.
 
 ---
 > ### 📜 Copyright & Portfolio Disclaimer
