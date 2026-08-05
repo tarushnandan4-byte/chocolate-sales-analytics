@@ -59,6 +59,8 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ---
 
-### 📜 Copyright & Portfolio Disclaimer
-© 2026 Tarush Nandan. All rights reserved. This repository and its contents are part of my personal data analytics portfolio for demonstration purposes only.
+> ### 📜 Copyright & Portfolio Disclaimer
+> **© 2026 Tarush Nandan. All rights reserved.** 
+> 
+> This repository, including its documentation, SQL queries, dashboard layouts, and visual architecture, is part of my personal data analytics portfolio for demonstration purposes only. Unauthorized copying, redistribution, or reuse of any assets within this project without explicit written permission is strictly prohibited.
 
