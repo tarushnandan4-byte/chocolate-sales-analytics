@@ -42,11 +42,11 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ---
 
-## 💡 Key Business Insights
+💡 Key Business Insights
 
-1. **SKU Revenue Concentration:** Top 3 SKUs (*70% Dark Bar*, *Mixed Assortment*, and *Truffle Gift Box*) account for over **63%** of enterprise sales ($33.4M).
-2. **Sales Rep Risk:** Lead rep *Arjun Mehta* generated **$17.8M** (34% of total revenue), presenting significant single-agent concentration risk.
-3. **Marketing Efficiency:** Wholesale channel achieved the highest **5.53x ROAS**, making it the top candidate for reallocated ad spend.
+1. SKU Revenue Concentration: The top 3 SKUs (70% Dark Bar, Mixed Assortment, and Truffle Gift Box) account for over 63% of overall enterprise sales ($33.4M).
+2. Sales Rep Concentration Risk: Lead salesperson Arjun Mehta generated $17.8M in 2023 (and $34.7M multi-year total, driving ~34% of enterprise revenue), highlighting significant single-agent reliance.
+3. Marketing & Campaign Efficiency: Enterprise marketing campaigns yielded an overall ROAS of 5.53x (+0.29x YoY) on $9.5M in spend, demonstrating strong overall capital efficiency.
 
 ---
 
