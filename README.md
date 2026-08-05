@@ -1,18 +1,28 @@
 # chocolate-sales-analytics
 End-to-end sales analytics pipeline built using Excel (Power Query & Pivot Tables) for data cleaning and exploratory analysis, SQL for querying aggregations, and an interactive Power BI dashboard featuring DAX measures and Star Schema data modeling.
 ---
+
+```mermaid
+flowchart LR
+    A["🟢 Microsoft Excel<br><i>(Power Query & EDA)</i>"] --> B["🔵 Microsoft SQL Server<br><i>(Queries & Aggregations)</i>"]
+    B --> C["🟡 Power BI Desktop<br><i>(Star Schema & DAX)</i>"]
+
+
+
 # 🍫 Chocolate Sales & Revenue Analytics
 
 ## 📊 Executive Summary
-An end-to-end data analytics project evaluating **$52.3M in enterprise revenue**, SKU performance drivers, sales representative concentration risks, and marketing channel ROI.
+An end-to-end data analytics project evaluating **$52.3M in enterprise revenue**, product portfolio efficiency, seasonal trends, and salesforce performance. 
+
+Key analytical highlights include identifying **cash cow products** (e.g., *70% Dark Chocolate Bar*), isolating **zombie SKUs** with low velocity, uncovering a major **Q4 seasonal demand spike**, and pin-pointing **underperforming sales staff** to optimize resource allocation and revenue growth.
 
 ---
 
 ## 🛠️ Data Pipeline & Technical Architecture
 
-### 1. Data Cleaning & Transformation (Microsoft Excel & Power Query)
-* **Data Auditing & Cleaning:** Extracted raw datasets, resolved null values, adjusted data types, and standardized date formats using Power Query.
-* **Exploratory Analysis:** Built dynamic Pivot Tables for initial spot-checking, revenue aggregation, and baseline validation.
+### 1. Data Cleaning & Exploratory Analysis (Microsoft Excel)
+* **Data Auditing & Cleaning:** Extracted raw datasets, resolved and handled missing values across **700+ cells**, adjusted data types, and standardized date formats using **Power Query**.
+* **Exploratory Data Analysis (EDA):** Built dynamic **Pivot Tables** and integrated **Slicers** for interactive cross-filtering, quick spot-checking, revenue aggregation, and rapid preliminary insights.
 
 ### 2. Relational Querying & Validation (Microsoft SQL Server)
 * Engineered SQL scripts to audit key business dimensions prior to BI reporting.
@@ -41,5 +51,4 @@ An end-to-end data analytics project evaluating **$52.3M in enterprise revenue**
 
 ### 📜 Copyright & Portfolio Disclaimer
 © 2026 Tarush Nandan. All rights reserved. This repository and its contents are part of my personal data analytics portfolio for demonstration purposes only.
-### 📜 Copyright & Portfolio Disclaimer
-© 2026 Tarush Nandan. All rights reserved. This repository and its contents are part of my personal data analytics portfolio for demonstration purposes only.
+
