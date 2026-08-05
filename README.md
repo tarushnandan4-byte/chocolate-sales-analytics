@@ -16,6 +16,19 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ---
 
+## ❓ Key Business Questions
+* **Product Classification:** Which flagship products act as "Cash Cows" for enterprise revenue, and which slow-moving "Zombie SKUs" require promotional bundling or restructuring?
+* **Salesforce Performance:** How is sales performance distributed across the team, and which underperforming sales staff need territory realignment or mentorship?
+* **Seasonality Trends:** Does historical sales data indicate a predictable Q4 seasonal demand surge, and how should inventory be managed ahead of it?
+* **Pricing & Discounting:** Did offering higher average discounts in 2023 directly drive higher unit volumes and top-line sales performance?
+  
+## 💡 Key Business Insights
+
+* **Portfolio & SKU Optimization (Cash Cows vs. Zombie SKUs):** Flagship "Cash Cow" SKUs (*70% Dark Bar*, *Mixed Assortment*, and *Truffle Gift Box*) drive over **63% of total revenue** ($33.4M), while slow-moving "Zombie SKUs" like *Hazelnut Milk Bar* ($1.1M) lag behind, presenting prime targets for promotional bundling.
+* **Sales Territory & Concentration Risk:** Lead rep *Arjun Mehta* generated **$17.8M in 2023** ($34.7M multi-year, accounting for 33.8% of total enterprise sales), exposing severe single-agent concentration risk while highlighting underperformance across bottom-tier reps.
+* **Seasonality & Demand Smoothing:** Historical monthly revenue trends consistently drop to annual lows during **Q2 (May–June)** before experiencing a sharp **Q4 demand surge**, signaling a need for pre-Q4 inventory adjustments and Q2 promotional campaigns.
+* **Marketing & Volume Execution:** Promotional strategies achieved an overall **5.53x ROAS** (+0.29x YoY) across $9.5M in ad spend, pushing total box volume to **14.2M units** with an average discount rate of 13.09%.
+
 ## 🛠️ Data Pipeline & Technical Architecture
 
 ### 1. Data Cleaning & Exploratory Analysis (Microsoft Excel)
@@ -42,11 +55,7 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ---
 
-💡 Key Business Insights
 
-1. SKU Revenue Concentration: The top 3 SKUs (70% Dark Bar, Mixed Assortment, and Truffle Gift Box) account for over 63% of overall enterprise sales ($33.4M).
-2. Sales Rep Concentration Risk: Lead salesperson Arjun Mehta generated $17.8M in 2023 (and $34.7M multi-year total, driving ~34% of enterprise revenue), highlighting significant single-agent reliance.
-3. Marketing & Campaign Efficiency: Enterprise marketing campaigns yielded an overall ROAS of 5.53x (+0.29x YoY) on $9.5M in spend, demonstrating strong overall capital efficiency.
 
 ---
 
