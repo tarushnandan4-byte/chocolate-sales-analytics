@@ -56,12 +56,6 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
   * **Page 2 (Executive Insights & Recommendations):** Integrated interactive treemaps, product-level YoY growth tables, and dedicated executive callout cards providing actionable business recommendations across **Sales Territory Realignment**, **Portfolio & SKU Optimization**, and **Seasonality & Revenue Smoothing**.
 
 ---
-
-## 🖼️ Dashboard Preview
-
-![Chocolate Sales Dashboard Preview](./dashboard_screenshot.png)
-
----
 > ### 📜 Copyright & Portfolio Disclaimer
 > **© 2026 Tarush Nandan. All rights reserved.**
 > 
