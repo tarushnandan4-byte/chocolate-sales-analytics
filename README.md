@@ -28,6 +28,17 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 * **Data Auditing & Cleaning:** Extracted raw datasets, resolved and handled missing values across **700+ cells**, adjusted data types, and standardized date formats using **Power Query**.
 * **Exploratory Data Analysis (EDA):** Built dynamic **Pivot Tables** and integrated **Slicers** for interactive cross-filtering, quick spot-checking, revenue aggregation, and rapid preliminary insights.
 
+#### 🔍 Excel Data Pipeline Visuals
+
+**Power Query ETL Steps:**
+![Power Query Cleaning Steps](assets/power_query_steps.png)
+
+**Cleaned & Formatted Excel Table:**
+![Cleaned Excel Dataset](assets/cleaned_dataset.png)
+
+**Excel Pivot Tables & EDA Dashboard:**
+![Excel Pivot Table Dashboard](assets/excel_dashboard.png)
+
 ### 2. Relational Querying & Data Validation (SSMS / Microsoft SQL Server)
 * **Database Views (`CREATE VIEW`):** Constructed reusable SQL Views to abstract aggregated queries and serve as clean, optimized data source layers for Power BI ingestion.
 * **Query Aggregation & Auditing:** Formulated targeted SQL queries using core aggregate functions (`SUM`, `AVG`, `COUNT`) and `GROUP BY` clauses to validate baseline metrics prior to reporting.
@@ -40,7 +51,6 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
   * **Page 1 (Overview Dashboard):** Feature-packed executive overview featuring dynamic slicers (Year, Country, Channel, Product), key KPI card banners, top revenue drivers by product and salesperson, and interactive monthly trend comparisons (`Revenue` vs. `Revenue PY`).
   * **Page 2 (Executive Insights & Recommendations):** Integrated interactive treemaps, product-level YoY growth tables, and dedicated executive callout cards providing actionable business recommendations across **Sales Territory Realignment**, **Portfolio & SKU Optimization**, and **Seasonality & Revenue Smoothing**.
 
-
 ## 📊 Dashboard Preview
 
 ### 🔄 Interactive Walkthrough
@@ -52,7 +62,6 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 
 ### Performance Insights & Strategic Recommendations
 ![Detailed Insights](assets/dashboard_insights.png)
-
 
 
 ## 💡 Key Business Insights
