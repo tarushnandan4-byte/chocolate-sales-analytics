@@ -42,7 +42,7 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 ### 2. Relational Querying & Data Validation (SSMS / Microsoft SQL Server)
 * **Database Views (`CREATE VIEW`):** Constructed reusable SQL Views to abstract aggregated queries and serve as clean, optimized data source layers for Power BI ingestion.
 * **Query Aggregation & Auditing:** Formulated targeted SQL queries using core aggregate functions (`SUM`, `AVG`, `COUNT`) and `GROUP BY` clauses to validate baseline metrics prior to reporting.
-* **Advanced Window Functions:** Executed analytical window functions (`DENSE_RANK`, `PARTITION BY`, `OVER`) to evaluate product velocity, salesperson ranking, and regional variance.
+* **Advanced Window Functions:** Executed analytical window functions (`DENSE_RANK() OVER ORDER BY`) to evaluate product velocity, rank top revenue drivers, and handle potential ranking ties.
 
 #### 🗄️ SQL Server Execution & Query Visuals
 
