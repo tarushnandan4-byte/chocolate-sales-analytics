@@ -44,6 +44,20 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 * **Query Aggregation & Auditing:** Formulated targeted SQL queries using core aggregate functions (`SUM`, `AVG`, `COUNT`) and `GROUP BY` clauses to validate baseline metrics prior to reporting.
 * **Advanced Window Functions:** Executed analytical window functions (`DENSE_RANK`, `PARTITION BY`, `OVER`) to evaluate product velocity, salesperson ranking, and regional variance.
 
+#### 🗄️ SQL Server Execution & Query Visuals
+
+**1. Infrastructure & View Setup (`FactSales`):**
+![SQL View Creation](assets/sql_view_creation.png)
+
+**2. Geographic Breakdown & Aggregations (Mid-Level Analytics):**
+![SQL Regional Performance](assets/Geographic%20Breakdown.png)
+
+**3. Product Rankings (Advanced Window Functions - `DENSE_RANK` Subquery):**
+![SQL Top Products](assets/sql_top_products.png)
+
+**4. Sales Representative Leaderboards (Top-N Filtering - `TOP 10`):**
+![SQL Top Salespeople](assets/sql_top_salespeople.png)
+
 ### 3. Data Modeling & Interactive Visuals (Power BI)
 * **Data Modeling:** Designed an optimized **Star Schema** establishing clean fact-dimension relationships across sales performance, product catalogs, sales representatives, and time dimensions.
 * **DAX Formulas & Measures:** Formulated explicit DAX measures for executive KPIs including Total Revenue ($52.3M, +4.0% YoY), Marketing Spend ($9.5M), ROAS (5.53x, +0.29x YoY), Volume Sold (14.2M Boxes), and Average Discount Rate (13.09%).
