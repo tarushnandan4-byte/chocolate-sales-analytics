@@ -50,7 +50,7 @@ By integrating cross-functional datasets across Excel, SQL, and Power BI, this a
 ![SQL View Creation](assets/sql_view_creation.png)
 
 **2. Geographic Breakdown & Aggregations (Mid-Level Analytics):**
-![SQL Regional Performance](assets/Geographic%20Breakdown.png)
+![SQL Regional Performance](assets/Geographic_Breakdown.png)
 
 **3. Product Rankings (Advanced Window Functions - `DENSE_RANK` Subquery):**
 ![SQL Top Products](assets/sql_top_products.png)
